@@ -1,0 +1,50 @@
+{
+  "name": "frame",
+  "version": "1.0.0",
+  "description": "wechat web app frame",
+  "homepage": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "baic <303394539@qq.com>"
+  },
+  "dependencies": {
+    "uglify-js": "~2",
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-compress": "~0.9.1",
+    "grunt-contrib-cssmin": "~0.7",
+    "grunt-contrib-htmlmin": "*",
+    "grunt-contrib-imagemin": "~0.7",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-rsync": "*",
+    "clean-css": "*"
+  },
+  "spm": {
+    "main": "init.js",
+    "dependencies": {
+      "seajs": "2.3.0",
+      "seajs-wrap": "1.0.2",
+      "jquery": "2.1.3",
+      "jquery-touch": "1.0.1",
+      "md5": "2.0.0",
+      "browser-storage": "1.1.1",
+      "url": "1.2",
+      "spinner": "2.0.1",
+      "iscroll": "5.1.2"
+    },
+    "idleading": ".",
+    "alias": {
+      "storage": "browser-storage",
+      "touch": "jquery-touch"
+    }
+  }
+}

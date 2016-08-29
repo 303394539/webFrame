@@ -1,0 +1,14 @@
+build
+dist
+_site
+*.css
+bower_components
+spm_modules
+!css/pickadate/*.css
+node_modules
+*.esproj
+*.DS_Store
+egret-working/**/.idea/**
+egret-working/**/.DS_Store
+egret-working/**/bin-debug/**
+egret-working/**/release/**

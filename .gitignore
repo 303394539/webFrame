@@ -1,0 +1,11 @@
+build
+*.css
+bower_components
+spm_modules
+node_modules
+*.esproj
+*.DS_Store
+egret-working/**/.idea/**
+egret-working/**/.DS_Store
+egret-working/**/bin-debug/**
+egret-working/**/release/**
